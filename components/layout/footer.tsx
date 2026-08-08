@@ -33,7 +33,7 @@ export function Footer({ footer }: { footer: FooterProps }) {
                   alt={item.label}
                   width={18}
                   height={18}
-                  className="h-[18px] w-[18px] object-contain invert"
+                  className="h-[18px] w-[18px] object-contain brightness-0 invert"
                 />
               </a>
             ))}
