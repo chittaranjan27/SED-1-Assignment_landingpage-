@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Container } from "@/components/ui/container";
 import { Icon } from "@/components/ui/icon";
 import { LogoMark } from "@/components/ui/logo-mark";
@@ -5,7 +6,7 @@ import { LogoMark } from "@/components/ui/logo-mark";
 type FooterProps = {
   copyright: string;
   columns: Array<{ title: string; links: Array<{ label: string; href: string }> }>;
-  socialLinks: Array<{ label: string; href: string; icon: string }>;
+  socialLinks: Array<{ label: string; href: string; logo: string }>;
   newsletter: {
     label: string;
     placeholder: string;
@@ -27,7 +28,13 @@ export function Footer({ footer }: { footer: FooterProps }) {
                 aria-label={item.label}
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 transition-colors hover:bg-primary"
               >
-                <Icon name={item.icon} className="h-4 w-4" aria-hidden="true" />
+                <Image
+                  src={item.logo}
+                  alt={item.label}
+                  width={18}
+                  height={18}
+                  className="h-[18px] w-[18px] object-contain invert"
+                />
               </a>
             ))}
           </div>

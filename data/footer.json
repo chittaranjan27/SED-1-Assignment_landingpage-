@@ -23,9 +23,10 @@
     }
   ],
   "socialLinks": [
-    { "label": "Instagram", "href": "#instagram", "icon": "Globe2" },
-    { "label": "X", "href": "#x", "icon": "MoveRight" },
-    { "label": "YouTube", "href": "#youtube", "icon": "MonitorSmartphone" }
+    { "label": "Instagram", "href": "#instagram", "logo": "/logo/social/instagram.svg" },
+    { "label": "X", "href": "#x", "logo": "/logo/social/twitter.svg" },
+    { "label": "YouTube", "href": "#youtube", "logo": "/logo/social/youtube.svg" },
+    { "label": "Browser", "href": "#web", "logo": "/logo/social/browser.svg" }
   ],
   "newsletter": {
     "label": "Stay up to date",
