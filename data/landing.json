@@ -23,35 +23,35 @@
     "items": [
       {
         "title": "Membership Organisations",
-        "description": "Our membership management software provides full automation of membership renewals and payments.",
-        "icon": "Users"
+        "description": "Our membership management software provides full automation of membership renewals and payments",
+        "logo": "/logo/mo.svg"
       },
       {
         "title": "National Associations",
-        "description": "Unify local chapters, events, safeguarding and member communication from one modern dashboard.",
-        "icon": "LayoutDashboard"
+        "description": "Our membership management software provides full automation of membership renewals and payments",
+        "logo": "/logo/na.svg"
       },
       {
         "title": "Clubs And Groups",
-        "description": "Run registrations, recurring billing and community engagement without fragmented tools.",
-        "icon": "HeartHandshake"
+        "description": "Our membership management software provides full automation of membership renewals and payments",
+        "logo": "/logo/cg.svg"
       }
     ]
   },
   "featurePrimary": {
     "id": "features",
     "title": "The unseen of spending three years at Pixelgrade",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.",
     "button": {
       "label": "Learn More",
       "href": "#learn-more-1"
     },
-    "image": "/images/feature-members.svg",
+    "image": "/images/mobile-signin.svg",
     "imageAlt": "Community membership dashboard illustration"
   },
   "statsSummary": {
-    "title": "Helping a local business",
-    "highlight": "reinvent itself",
+    "title": "Helping a local",
+    "highlight": "business reinvent itself",
     "description": "We reached here with our hard work and dedication"
   },
   "featureSecondary": {
@@ -61,7 +61,7 @@
       "label": "Learn More",
       "href": "#learn-more-2"
     },
-    "image": "/images/feature-phone.svg",
+    "image": "/images/mobile-signup.svg",
     "imageAlt": "Mobile app interface illustration"
   },
   "cta": {

@@ -10,7 +10,7 @@ type TestimonialProps = {
   image: string;
   imageAlt: string;
   customerLink: { label: string; href: string };
-  logos: Array<{ name: string; icon: string }>;
+  logos: Array<{ name: string; logo: string }>;
 };
 
 export function TestimonialSection({ testimonial }: { testimonial: TestimonialProps }) {

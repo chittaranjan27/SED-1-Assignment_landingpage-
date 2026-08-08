@@ -25,8 +25,8 @@ export default function Home() {
         <div id="services">
           <ClientsSection clients={clientsData} />
           <CommunitySection community={landingData.community} />
+          <FeatureSection feature={landingData.featurePrimary} />
         </div>
-        <FeatureSection feature={landingData.featurePrimary} />
         <StatsSection stats={statsData} summary={landingData.statsSummary} />
         <div id="products">
           <FeatureSection feature={landingData.featureSecondary} reversed />

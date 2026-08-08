@@ -1,15 +1,20 @@
-import { Icon } from "@/components/ui/icon";
+import Image from "next/image";
 
 type ClientLogoCardProps = {
   name: string;
-  icon: string;
+  logo: string;
 };
 
-export function ClientLogoCard({ name, icon }: ClientLogoCardProps) {
+export function ClientLogoCard({ name, logo }: ClientLogoCardProps) {
   return (
-    <div className="flex items-center justify-center rounded-2xl bg-white px-6 py-5 text-neutral-grey shadow-[var(--shadow-2)]">
-      <Icon name={icon} className="h-6 w-6 text-primary" aria-hidden="true" />
-      <span className="sr-only">{name}</span>
+    <div className="flex items-center justify-center">
+      <Image
+        src={logo}
+        alt={name}
+        width={120}
+        height={40}
+        className="h-10 w-auto object-contain"
+      />
     </div>
   );
 }

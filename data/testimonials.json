@@ -9,11 +9,11 @@
     "href": "#customers"
   },
   "logos": [
-    { "name": "Nimbus", "icon": "Globe2" },
-    { "name": "Altitude", "icon": "ShieldCheck" },
-    { "name": "Vertex", "icon": "BarChart3" },
-    { "name": "Pulse", "icon": "HeartHandshake" },
-    { "name": "Stackflow", "icon": "LayoutDashboard" },
-    { "name": "Orbit", "icon": "MonitorSmartphone" }
+    { "name": "Client 1", "logo": "/logo/c-1.svg" },
+    { "name": "Client 2", "logo": "/logo/c-2.svg" },
+    { "name": "Client 3", "logo": "/logo/c-3.svg" },
+    { "name": "Client 4", "logo": "/logo/c-4.svg" },
+    { "name": "Client 5", "logo": "/logo/c-5.svg" },
+    { "name": "Client 6", "logo": "/logo/c-6.svg" }
   ]
 }

@@ -6,15 +6,15 @@ type CommunitySectionProps = {
   id: string;
   title: string;
   description: string;
-  items: Array<{ title: string; description: string; icon: string }>;
+  items: Array<{ title: string; description: string; logo: string }>;
 };
 
 export function CommunitySection({ community }: { community: CommunitySectionProps }) {
   return (
-    <section id={community.id} className="bg-white py-12 sm:py-16">
+    <section id={community.id} className="bg-white pb-12 sm:pb-16 pt-4">
       <Container>
         <SectionHeading title={community.title} description={community.description} />
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
+        <div className="mt-12 grid gap-10 md:grid-cols-3 md:gap-8 lg:gap-14">
           {community.items.map((item) => (
             <CommunityCard key={item.title} {...item} />
           ))}
