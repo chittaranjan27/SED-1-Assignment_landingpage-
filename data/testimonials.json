@@ -1,19 +1,37 @@
 {
-  "quote": "Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit.",
+  "quote": "Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.",
   "name": "Tim Smith",
   "role": "British Dragon Boat Racing Association",
-  "image": "/images/testimonial-panel.svg",
+  "image": "/images/tim-smith.png",
   "imageAlt": "Featured customer brand panel",
   "customerLink": {
     "label": "Meet all customers",
     "href": "#customers"
   },
   "logos": [
-    { "name": "Client 1", "logo": "/logo/c-1.svg" },
-    { "name": "Client 2", "logo": "/logo/c-2.svg" },
-    { "name": "Client 3", "logo": "/logo/c-3.svg" },
-    { "name": "Client 4", "logo": "/logo/c-4.svg" },
-    { "name": "Client 5", "logo": "/logo/c-5.svg" },
-    { "name": "Client 6", "logo": "/logo/c-6.svg" }
+    {
+      "name": "Client 1",
+      "logo": "/logo/c-1.svg"
+    },
+    {
+      "name": "Client 2",
+      "logo": "/logo/c-2.svg"
+    },
+    {
+      "name": "Client 3",
+      "logo": "/logo/c-3.svg"
+    },
+    {
+      "name": "Client 4",
+      "logo": "/logo/c-4.svg"
+    },
+    {
+      "name": "Client 5",
+      "logo": "/logo/c-5.svg"
+    },
+    {
+      "name": "Client 6",
+      "logo": "/logo/c-6.svg"
+    }
   ]
 }

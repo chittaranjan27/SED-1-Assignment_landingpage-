@@ -3,7 +3,7 @@ import { Container } from "@/components/ui/container";
 
 type StatsSectionProps = {
   stats: {
-    items: Array<{ value: string; label: string; logo: string }>;
+    items: Array<{ value: string; label: string; logo: string; color?: string }>;
   };
   summary: {
     title: string;
