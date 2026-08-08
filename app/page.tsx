@@ -22,13 +22,21 @@ export default function Home() {
       <Header navigation={navigationData} cta={landingData.headerCta} />
       <main>
         <HeroSection hero={landingData.hero} />
-        <ClientsSection clients={clientsData} />
-        <CommunitySection community={landingData.community} />
+        <div id="services">
+          <ClientsSection clients={clientsData} />
+          <CommunitySection community={landingData.community} />
+        </div>
         <FeatureSection feature={landingData.featurePrimary} />
         <StatsSection stats={statsData} summary={landingData.statsSummary} />
-        <FeatureSection feature={landingData.featureSecondary} reversed />
-        <TestimonialSection testimonial={testimonialsData} />
-        <BlogSection blog={blogData} />
+        <div id="products">
+          <FeatureSection feature={landingData.featureSecondary} reversed />
+        </div>
+        <div id="testimonials">
+          <TestimonialSection testimonial={testimonialsData} />
+        </div>
+        <div id="faq">
+          <BlogSection blog={blogData} />
+        </div>
         <CtaSection cta={landingData.cta} />
       </main>
       <Footer footer={footerData} />

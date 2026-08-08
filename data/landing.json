@@ -5,20 +5,21 @@
   },
   "hero": {
     "id": "home",
-    "title": "Lessons and insights from",
-    "highlight": "8 years",
+    "title": "Lessons and insights",
+    "highlight": "from 8 years",
     "subtitle": "Where to grow your business as a photographer: site or social media?",
     "button": {
       "label": "Register",
       "href": "#register"
     },
-    "image": "/images/hero-dashboard.svg",
-    "imageAlt": "Illustration of the JustGo dashboard"
+    "image": "/images/hero-illustration.svg",
+    "imageAlt": "Illustration of the Nexcent dashboard",
+    "dot": "/logo/Dot.svg"
   },
   "community": {
     "id": "community",
     "title": "Manage your entire community in a single system",
-    "description": "Who is JustGo suitable for?",
+    "description": "Who is Nexcent suitable for?",
     "items": [
       {
         "title": "Membership Organisations",

@@ -1,10 +1,29 @@
 {
   "loginLabel": "Login",
   "items": [
-    { "label": "Home", "href": "#home" },
-    { "label": "Features", "href": "#features" },
-    { "label": "Community", "href": "#community" },
-    { "label": "Blog", "href": "#blog" },
-    { "label": "Pricing", "href": "#pricing" }
+    {
+      "label": "Home",
+      "href": "#home"
+    },
+    {
+      "label": "Service",
+      "href": "#services"
+    },
+    {
+      "label": "Features",
+      "href": "#features"
+    },
+    {
+      "label": "Product",
+      "href": "#products"
+    },
+    {
+      "label": "Testimonial",
+      "href": "#testimonials"
+    },
+    {
+      "label": "FAQ",
+      "href": "#faq"
+    }
   ]
 }

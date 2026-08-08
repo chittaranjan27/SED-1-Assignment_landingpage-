@@ -31,18 +31,18 @@ const poppins = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://justgo.example.com"),
-  title: "JustGo | Community Management SaaS",
+  title: "Nexcent | Community Management SaaS",
   description:
     "Run member organisations, clubs, communities and events from one modern platform.",
   openGraph: {
-    title: "JustGo | Community Management SaaS",
+    title: "Nexcent | Community Management SaaS",
     description:
       "A production-grade landing page for community platforms, built with Next.js 15 and structured content.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "JustGo | Community Management SaaS",
+    title: "Nexcent | Community Management SaaS",
     description:
       "Run member organisations, clubs, communities and events from one modern platform.",
   },

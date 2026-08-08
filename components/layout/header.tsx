@@ -33,10 +33,10 @@ export function Header({ navigation, cta }: HeaderProps) {
           ))}
         </nav>
         <div className="hidden items-center gap-4 lg:flex">
-          <a href="#login" className="text-sm font-medium text-primary">
+          <a href="#login" className="text-sm font-medium text-primary hover:text-primary-hover transition-colors">
             {navigation.loginLabel}
           </a>
-          <Button label={cta.label} href={cta.href} size="sm" />
+          <Button label={cta.label} href={cta.href} size="sm" variant="primary" />
         </div>
       </Container>
     </header>
