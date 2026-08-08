@@ -1,4 +1,4 @@
-# JustGo Landing Page
+# Nexcent Landing Page
 
 SSR-first marketing landing page built with Next.js App Router, TypeScript, React 19 and Tailwind CSS.
 
