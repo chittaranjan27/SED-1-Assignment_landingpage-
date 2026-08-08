@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "value": "2,245,341", "label": "Members", "icon": "Users" },
+    { "value": "46,328", "label": "Clubs", "icon": "HeartHandshake" },
+    { "value": "828,867", "label": "Event Bookings", "icon": "CalendarCheck2" },
+    { "value": "1,926,436", "label": "Payments", "icon": "CreditCard" }
+  ]
+}

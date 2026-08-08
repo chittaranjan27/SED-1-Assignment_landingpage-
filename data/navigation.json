@@ -1,0 +1,10 @@
+{
+  "loginLabel": "Login",
+  "items": [
+    { "label": "Home", "href": "#home" },
+    { "label": "Features", "href": "#features" },
+    { "label": "Community", "href": "#community" },
+    { "label": "Blog", "href": "#blog" },
+    { "label": "Pricing", "href": "#pricing" }
+  ]
+}

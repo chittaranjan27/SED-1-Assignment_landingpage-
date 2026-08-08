@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f5f7fa;
+  --surface: #ffffff;
+  --surface-muted: #f5f7fa;
+  --foreground: #263238;
+  --neutral-black: #263238;
+  --neutral-d-grey: #4d4d4d;
+  --neutral-grey: #717171;
+  --neutral-l-grey: #89939e;
+  --neutral-grey-blue: #abbed1;
+  --neutral-silver: #f5f7fa;
+  --neutral-white: #ffffff;
+  --primary: #4caf4f;
+  --primary-hover: #43a046;
+  --primary-dark: #388e3b;
+  --secondary: #263238;
+  --info: #2194f3;
+  --success: #2e7d31;
+  --warning: #fbc02d;
+  --error: #e53835;
+  --shadow-2: 0 2px 4px rgba(171, 190, 209, 0.6);
+  --shadow-4: 0 4px 8px rgba(171, 190, 209, 0.4);
+  --shadow-6: 0 6px 12px rgba(171, 190, 209, 0.3);
+  --shadow-8: 0 8px 16px rgba(171, 190, 209, 0.4);
+  --shadow-16: 0 16px 32px rgba(171, 190, 209, 0.3);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-foreground: var(--foreground);
+  --color-neutral-black: var(--neutral-black);
+  --color-neutral-d-grey: var(--neutral-d-grey);
+  --color-neutral-grey: var(--neutral-grey);
+  --color-neutral-l-grey: var(--neutral-l-grey);
+  --color-neutral-grey-blue: var(--neutral-grey-blue);
+  --color-neutral-silver: var(--neutral-silver);
+  --color-neutral-white: var(--neutral-white);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-dark: var(--primary-dark);
+  --color-secondary: var(--secondary);
+  --color-info: var(--info);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-poppins);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--info) 45%, white);
+  outline-offset: 3px;
+}

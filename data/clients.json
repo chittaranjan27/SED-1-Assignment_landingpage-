@@ -1,0 +1,13 @@
+{
+  "title": "Our Clients",
+  "description": "We have been working with some Fortune 500+ clients",
+  "items": [
+    { "name": "Nimbus", "icon": "Globe2" },
+    { "name": "Altitude", "icon": "ShieldCheck" },
+    { "name": "Vertex", "icon": "BarChart3" },
+    { "name": "Pulse", "icon": "HeartHandshake" },
+    { "name": "Stackflow", "icon": "LayoutDashboard" },
+    { "name": "Orbit", "icon": "MonitorSmartphone" },
+    { "name": "Northstar", "icon": "HandCoins" }
+  ]
+}

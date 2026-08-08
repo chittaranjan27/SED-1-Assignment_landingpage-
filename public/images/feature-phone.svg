@@ -1,0 +1,16 @@
+<svg width="440" height="420" viewBox="0 0 440 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="440" height="420" rx="24" fill="#F5F7FA"/>
+<rect x="132" y="58" width="134" height="284" rx="28" fill="white" stroke="#ABBED1" stroke-width="8"/>
+<rect x="182" y="72" width="34" height="8" rx="4" fill="#ABBED1"/>
+<rect x="156" y="110" width="86" height="12" rx="6" fill="#4CAF4F"/>
+<rect x="156" y="138" width="86" height="10" rx="5" fill="#E8F5E9"/>
+<rect x="156" y="162" width="86" height="10" rx="5" fill="#E8F5E9"/>
+<rect x="156" y="186" width="86" height="10" rx="5" fill="#E8F5E9"/>
+<rect x="156" y="220" width="86" height="50" rx="12" fill="#F5F7FA"/>
+<rect x="156" y="286" width="86" height="22" rx="11" fill="#4CAF4F"/>
+<circle cx="107" cy="221" r="28" fill="#E8F5E9"/>
+<rect x="94" y="246" width="26" height="82" rx="13" fill="#263238"/>
+<circle cx="107" cy="176" r="17" fill="#263238"/>
+<rect x="248" y="58" width="64" height="64" rx="18" fill="#4CAF4F"/>
+<path d="M270 93L280 103L294 79" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

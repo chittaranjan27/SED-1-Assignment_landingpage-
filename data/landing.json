@@ -1,0 +1,74 @@
+{
+  "headerCta": {
+    "label": "Sign up",
+    "href": "#signup"
+  },
+  "hero": {
+    "id": "home",
+    "title": "Lessons and insights from",
+    "highlight": "8 years",
+    "subtitle": "Where to grow your business as a photographer: site or social media?",
+    "button": {
+      "label": "Register",
+      "href": "#register"
+    },
+    "image": "/images/hero-dashboard.svg",
+    "imageAlt": "Illustration of the JustGo dashboard"
+  },
+  "community": {
+    "id": "community",
+    "title": "Manage your entire community in a single system",
+    "description": "Who is JustGo suitable for?",
+    "items": [
+      {
+        "title": "Membership Organisations",
+        "description": "Our membership management software provides full automation of membership renewals and payments.",
+        "icon": "Users"
+      },
+      {
+        "title": "National Associations",
+        "description": "Unify local chapters, events, safeguarding and member communication from one modern dashboard.",
+        "icon": "LayoutDashboard"
+      },
+      {
+        "title": "Clubs And Groups",
+        "description": "Run registrations, recurring billing and community engagement without fragmented tools.",
+        "icon": "HeartHandshake"
+      }
+    ]
+  },
+  "featurePrimary": {
+    "id": "features",
+    "title": "The unseen of spending three years at Pixelgrade",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor.",
+    "button": {
+      "label": "Learn More",
+      "href": "#learn-more-1"
+    },
+    "image": "/images/feature-members.svg",
+    "imageAlt": "Community membership dashboard illustration"
+  },
+  "statsSummary": {
+    "title": "Helping a local business",
+    "highlight": "reinvent itself",
+    "description": "We reached here with our hard work and dedication"
+  },
+  "featureSecondary": {
+    "title": "How to design your site footer like we did",
+    "description": "Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis.",
+    "button": {
+      "label": "Learn More",
+      "href": "#learn-more-2"
+    },
+    "image": "/images/feature-phone.svg",
+    "imageAlt": "Mobile app interface illustration"
+  },
+  "cta": {
+    "title": "Pellentesque suscipit fringilla libero eu.",
+    "button": {
+      "label": "Get a Demo",
+      "href": "#demo",
+      "rightIcon": "ArrowRight"
+    }
+  }
+}

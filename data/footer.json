@@ -1,0 +1,34 @@
+{
+  "copyright": "Copyright © 2026 JustGo Ltd. All rights reserved",
+  "columns": [
+    {
+      "title": "Company",
+      "links": [
+        { "label": "About us", "href": "#about" },
+        { "label": "Blog", "href": "#blog" },
+        { "label": "Contact us", "href": "#contact" },
+        { "label": "Pricing", "href": "#pricing" },
+        { "label": "Testimonials", "href": "#testimonials" }
+      ]
+    },
+    {
+      "title": "Support",
+      "links": [
+        { "label": "Help center", "href": "#support" },
+        { "label": "Terms of service", "href": "#terms" },
+        { "label": "Legal", "href": "#legal" },
+        { "label": "Privacy policy", "href": "#privacy" },
+        { "label": "Status", "href": "#status" }
+      ]
+    }
+  ],
+  "socialLinks": [
+    { "label": "Instagram", "href": "#instagram", "icon": "Globe2" },
+    { "label": "X", "href": "#x", "icon": "MoveRight" },
+    { "label": "YouTube", "href": "#youtube", "icon": "MonitorSmartphone" }
+  ],
+  "newsletter": {
+    "label": "Stay up to date",
+    "placeholder": "Your email address"
+  }
+}
