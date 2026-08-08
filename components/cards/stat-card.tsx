@@ -10,14 +10,18 @@ type StatCardProps = {
 export function StatCard({ value, label, logo, color }: StatCardProps) {
   return (
     <div className="flex items-start gap-4">
-      <Image
-        src={logo}
-        alt={label}
-        width={48}
-        height={48}
-        className="mt-1 h-12 w-12 object-contain"
-        style={color ? { filter: `drop-shadow(0 0 0 ${color})`, color } : undefined}
-      />
+      <div
+        className="mt-1 h-12 w-12 flex-shrink-0"
+        style={color ? { color } : undefined}
+      >
+        <Image
+          src={logo}
+          alt={label}
+          width={48}
+          height={48}
+          className="h-12 w-12 object-contain"
+        />
+      </div>
       <div>
         <p className="font-display text-[1.75rem] font-semibold leading-none text-neutral-d-grey">
           {value}
