@@ -11,9 +11,9 @@ export function ClientLogoCard({ name, logo }: ClientLogoCardProps) {
       <Image
         src={logo}
         alt={name}
-        width={120}
-        height={40}
-        className="h-10 w-auto object-contain"
+        width={100}
+        height={32}
+        className="h-8 w-auto object-contain"
       />
     </div>
   );
