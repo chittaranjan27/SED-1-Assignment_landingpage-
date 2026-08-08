@@ -1,17 +1,21 @@
-import { Icon } from "@/components/ui/icon";
+import Image from "next/image";
 
 type StatCardProps = {
   value: string;
   label: string;
-  icon: string;
+  logo: string;
 };
 
-export function StatCard({ value, label, icon }: StatCardProps) {
+export function StatCard({ value, label, logo }: StatCardProps) {
   return (
     <div className="flex items-start gap-4">
-      <div className="mt-1 flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary">
-        <Icon name={icon} className="h-6 w-6" aria-hidden="true" />
-      </div>
+      <Image
+        src={logo}
+        alt={label}
+        width={48}
+        height={48}
+        className="mt-1 h-12 w-12 object-contain"
+      />
       <div>
         <p className="font-display text-[1.75rem] font-semibold leading-none text-neutral-d-grey">
           {value}

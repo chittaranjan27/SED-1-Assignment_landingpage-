@@ -3,7 +3,7 @@ import { Container } from "@/components/ui/container";
 
 type StatsSectionProps = {
   stats: {
-    items: Array<{ value: string; label: string; icon: string }>;
+    items: Array<{ value: string; label: string; logo: string }>;
   };
   summary: {
     title: string;
@@ -18,7 +18,9 @@ export function StatsSection({ stats, summary }: StatsSectionProps) {
       <Container className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
         <div>
           <h2 className="font-display text-3xl font-bold leading-tight text-neutral-d-grey sm:text-[2.25rem]">
-            {summary.title} <span className="text-primary">{summary.highlight}</span>
+            {summary.title}
+            <br />
+            <span className="text-primary">{summary.highlight}</span>
           </h2>
           <p className="mt-4 text-base leading-7 text-neutral-grey">{summary.description}</p>
         </div>
