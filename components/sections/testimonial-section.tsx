@@ -17,13 +17,14 @@ export function TestimonialSection({ testimonial }: { testimonial: TestimonialPr
   return (
     <section className="bg-neutral-silver py-16">
       <Container className="grid gap-10 lg:grid-cols-[320px_1fr] lg:items-center">
-        <div className="rounded-[12px] bg-secondary shadow-[var(--shadow-16)]">
+        <div className="relative h-[380px] w-full overflow-hidden rounded-[12px] shadow-[var(--shadow-16)] lg:h-[420px]">
           <Image
             src={testimonial.image}
             alt={testimonial.imageAlt}
-            width={320}
-            height={320}
-            className="object-cover rounded-[12px]"
+            fill
+            className="object-cover object-top"
+            sizes="(max-width: 1024px) 100vw, 320px"
+            priority
           />
         </div>
         <div>
