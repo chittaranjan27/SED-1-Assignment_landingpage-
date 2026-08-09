@@ -18,7 +18,13 @@ export function Footer({ footer }: { footer: FooterProps }) {
     <footer className="bg-secondary py-16 text-white">
       <Container className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.3fr_1fr_1fr_1fr]">
         <div className="space-y-6">
-          <LogoMark className="[&_span:last-child]:text-white" />
+          <Image
+            src="/logo/footer-logo.svg"
+            alt="Nexcent"
+            width={191}
+            height={30}
+            style={{ width: "auto", height: "auto" }}
+          />
           <p className="max-w-xs text-sm leading-7 text-white/80">{footer.copyright}</p>
           <div className="flex gap-4">
             {footer.socialLinks.map((item) => (
@@ -33,7 +39,8 @@ export function Footer({ footer }: { footer: FooterProps }) {
                   alt={item.label}
                   width={18}
                   height={18}
-                  className="h-[18px] w-[18px] object-contain brightness-0 invert"
+                  className="object-contain brightness-0 invert"
+                  style={{ width: "auto", height: "auto" }}
                 />
               </a>
             ))}
@@ -63,7 +70,13 @@ export function Footer({ footer }: { footer: FooterProps }) {
               className="w-full bg-transparent text-sm text-white placeholder:text-white/60 focus:outline-none"
             />
             <button type="submit" aria-label="Submit email">
-              <Icon name="ArrowRight" className="h-4 w-4" />
+              <Image
+                src="/logo/social/emailicon.svg"
+                alt="Send"
+                width={18}
+                height={18}
+                style={{ width: "auto", height: "auto" }}
+              />
             </button>
           </form>
         </div>

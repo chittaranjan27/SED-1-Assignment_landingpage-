@@ -13,9 +13,10 @@ export function CommunityCard({ title, description, logo }: CommunityCardProps) 
         <Image
           src={logo}
           alt={title}
-          width={40}
-          height={40}
-          className="h-20 w-20 object-contain"
+          width={80}
+          height={80}
+          className="object-contain"
+          style={{ width: "auto", height: "auto" }}
         />
       </div>
       <h3 className="font-display text-2xl font-bold leading-tight text-neutral-d-grey">

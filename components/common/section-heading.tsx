@@ -25,7 +25,7 @@ export function SectionHeading({
         {title}
       </h2>
       {description ? (
-        <p className="text-base leading-7 text-neutral-grey">{description}</p>
+        <p className="text-base leading-6 text-neutral-grey">{description}</p>
       ) : null}
     </div>
   );

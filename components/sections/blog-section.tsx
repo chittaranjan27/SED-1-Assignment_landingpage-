@@ -11,10 +11,10 @@ type BlogProps = {
 
 export function BlogSection({ blog }: { blog: BlogProps }) {
   return (
-    <section id={blog.id} className="bg-white py-16 sm:py-20">
+    <section id={blog.id} className="bg-white py-16 sm:py-8">
       <Container>
         <SectionHeading title={blog.title} description={blog.description} />
-        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-3 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {blog.items.map((item) => (
             <BlogCard key={item.title} {...item} />
           ))}

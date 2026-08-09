@@ -15,23 +15,23 @@ type TestimonialProps = {
 
 export function TestimonialSection({ testimonial }: { testimonial: TestimonialProps }) {
   return (
-    <section className="bg-neutral-silver py-16">
-      <Container className="grid gap-10 lg:grid-cols-[200px_1fr] lg:items-start">
-        <div className="relative mx-auto h-[220px] w-[220px] overflow-hidden rounded-[12px] shadow-[var(--shadow-16)] sm:h-[200px] sm:w-[200px]">
+    <section className="bg-neutral-silver py-5">
+      <Container className="grid gap-15 lg:grid-cols-[320px_1fr] lg:items-center">
+        <div className="relative mx-auto h-[340px] w-[340px] sm:h-[340px] sm:w-[340px]">
           <Image
             src={testimonial.image}
             alt={testimonial.imageAlt}
             fill
             className="object-cover object-center"
-            sizes="220px"
+            sizes="340px"
             priority
           />
         </div>
         <div className="text-center lg:text-left">
-          <p className="text-base leading-8 text-neutral-grey">{testimonial.quote}</p>
-          <p className="mt-6 text-xl font-semibold text-primary">{testimonial.name}</p>
-          <p className="mt-2 text-base text-neutral-l-grey">{testimonial.role}</p>
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-6 lg:justify-start">
+          <p className="text-base leading-6 text-neutral-grey">{testimonial.quote}</p>
+          <p className="mt-3 text-xl font-semibold text-primary">{testimonial.name}</p>
+          <p className="mt-1 text-base text-neutral-l-grey">{testimonial.role}</p>
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-10 lg:justify-start">
             {testimonial.logos.map((logo) => (
               <ClientLogoCard key={logo.name} {...logo} />
             ))}

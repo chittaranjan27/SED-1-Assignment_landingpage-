@@ -11,14 +11,14 @@ type BlogCardProps = {
 
 export function BlogCard({ title, image, imageAlt, href }: BlogCardProps) {
   return (
-    <article className="group relative pb-16">
+    <article className="group relative pb-16 mb-15">
       <div className="overflow-hidden rounded-[12px]">
         <Image
           src={image}
           alt={imageAlt}
           width={368}
           height={286}
-          className="h-[286px] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          className="h-[286px] w-full object-cover transition-transform duration-500"
         />
       </div>
       <div className="absolute inset-x-6 bottom-0 rounded-[10px] bg-neutral-silver p-6 text-center shadow-[var(--shadow-8)]">

@@ -18,7 +18,7 @@ import testimonialsData from "@/data/testimonials.json";
 
 export default function Home() {
   return (
-    <div className="bg-background text-neutral-d-grey mx-auto w-full max-w-[1440px] min-h-[4376px]">
+    <div className="bg-background text-neutral-d-grey mx-auto w-full max-w-[1440px]">
       <Header navigation={navigationData} cta={landingData.headerCta} />
       <main>
         <HeroSection hero={landingData.hero} />
@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <StatsSection stats={statsData} summary={landingData.statsSummary} />
         <div id="products">
-          <FeatureSection feature={landingData.featureSecondary} reversed />
+          <FeatureSection feature={landingData.featureSecondary} />
         </div>
         <div id="testimonials">
           <TestimonialSection testimonial={testimonialsData} />

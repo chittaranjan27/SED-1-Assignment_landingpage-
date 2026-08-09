@@ -49,6 +49,7 @@ export function HeroSection({ hero }: { hero: HeroProps }) {
             width={42}
             height={42}
             aria-hidden="true"
+            style={{ width: "auto", height: "auto" }}
           />
         </div>
       )}
