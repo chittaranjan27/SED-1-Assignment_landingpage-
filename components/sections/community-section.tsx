@@ -14,7 +14,7 @@ export function CommunitySection({ community }: { community: CommunitySectionPro
     <section id={community.id} className="bg-white pb-12 sm:pb-16 pt-4">
       <Container>
         <SectionHeading title={community.title} description={community.description} />
-        <div className="mt-12 grid gap-10 md:grid-cols-3 md:gap-8 lg:gap-14">
+        <div className="mt-10 grid gap-8 md:grid-cols-3 md:gap-8 lg:gap-30 px-[30px]">
           {community.items.map((item) => (
             <CommunityCard key={item.title} {...item} />
           ))}

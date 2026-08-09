@@ -20,7 +20,7 @@ export function FeatureSection({
   reversed?: boolean;
 }) {
   return (
-    <section id={feature.id} className={cn("bg-white py-12 sm:py-16 lg:py-20", reversed && "bg-white")}>
+    <section id={feature.id} className={cn("bg-white py-12 sm:py-16 lg:py-10", reversed && "bg-white")}>
       <Container
         className={cn(
           "grid items-center gap-10 lg:grid-cols-[0.95fr_1.05fr]",
@@ -36,12 +36,12 @@ export function FeatureSection({
             className="h-auto w-full max-w-[400px] lg:max-w-full"
           />
         </div>
-        <div className={cn("text-center lg:text-left", reversed ? "lg:order-1" : "")}>
-          <h2 className="font-display text-3xl font-bold leading-tight text-neutral-d-grey sm:text-[2.25rem]">
+        <div className={cn("lg:text-left", reversed ? "lg:order-1" : "")}>
+          <h2 className="font-display text-2xl font-bold leading-10 text-neutral-d-grey sm:text-[2.15rem]">
             {feature.title}
           </h2>
-          <p className="mt-4 text-base leading-7 text-neutral-grey">{feature.description}</p>
-          <div className="mt-8 flex justify-center lg:justify-start">
+          <p className="mt-4 text-md leading-5 text-neutral-grey">{feature.description}</p>
+          <div className="mt-7 flex justify-center lg:justify-start">
             <Button label={feature.button.label} href={feature.button.href} />
           </div>
         </div>

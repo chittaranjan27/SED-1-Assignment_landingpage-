@@ -18,13 +18,13 @@ export function HeroSection({ hero }: { hero: HeroProps }) {
     <section id={hero.id} className="relative bg-neutral-silver py-12 sm:py-16 lg:pt-24 lg:pb-20">
       <Container className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
         <div className="text-center lg:text-left">
-          <h1 className="font-display text-4xl font-bold leading-[1.15] text-neutral-d-grey sm:text-5xl lg:text-[4rem]">
-            {hero.title} <span className="text-primary">{hero.highlight}</span>
+          <h1 className="font-display text-3xl font-bold leading-[1.15] text-neutral-d-grey sm:text-5xl lg:text-[3.6rem]">
+            {hero.title} <span className="text-primary text-[4rem]">{hero.highlight}</span>
           </h1>
           <p className="mt-4 text-base leading-7 text-neutral-grey mx-auto max-w-xl lg:mx-0">
             {hero.subtitle}
           </p>
-          <div className="mt-8 flex justify-center lg:justify-start">
+          <div className="mt-7 flex justify-center lg:justify-start">
             <Button label={hero.button.label} href={hero.button.href} />
           </div>
         </div>
@@ -34,7 +34,7 @@ export function HeroSection({ hero }: { hero: HeroProps }) {
             alt={hero.imageAlt}
             width={560}
             height={420}
-            className="h-auto w-full max-w-[480px] lg:max-w-full"
+            className="h-auto w-full max-w-[400px] lg:max-w-full"
             priority
           />
         </div>
@@ -42,12 +42,12 @@ export function HeroSection({ hero }: { hero: HeroProps }) {
 
       {/* Dot decoration at the bottom of the hero section */}
       {hero.dot && (
-        <div className="pointer-events-none absolute bottom-2 left-1/2 -translate-x-1/2">
+        <div className="pointer-events-none absolute bottom-3 left-1/2 -translate-x-1/2">
           <Image
             src={hero.dot}
             alt=""
-            width={40}
-            height={40}
+            width={42}
+            height={42}
             aria-hidden="true"
           />
         </div>
