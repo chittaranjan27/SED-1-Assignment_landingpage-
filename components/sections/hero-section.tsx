@@ -19,7 +19,7 @@ export function HeroSection({ hero }: { hero: HeroProps }) {
       <Container className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
         <div className="text-center lg:text-left">
           <h1 className="font-display text-3xl font-bold leading-[1.15] text-neutral-d-grey sm:text-5xl lg:text-[3.6rem]">
-            {hero.title} <span className="text-primary text-[4rem]">{hero.highlight}</span>
+            {hero.title} <span className="text-primary text-3xl sm:text-5xl lg:text-[4rem]">{hero.highlight}</span>
           </h1>
           <p className="mt-4 text-base leading-7 text-neutral-grey mx-auto max-w-xl lg:mx-0">
             {hero.subtitle}

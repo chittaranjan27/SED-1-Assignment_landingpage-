@@ -16,14 +16,14 @@ type TestimonialProps = {
 export function TestimonialSection({ testimonial }: { testimonial: TestimonialProps }) {
   return (
     <section className="bg-neutral-silver py-5">
-      <Container className="grid gap-15 lg:grid-cols-[320px_1fr] lg:items-center">
-        <div className="relative mx-auto h-[340px] w-[340px] sm:h-[340px] sm:w-[340px]">
+      <Container className="grid gap-10 lg:grid-cols-[320px_1fr] lg:items-center">
+        <div className="relative mx-auto h-[250px] w-[250px] sm:h-[300px] sm:w-[300px] lg:h-[340px] lg:w-[340px]">
           <Image
             src={testimonial.image}
             alt={testimonial.imageAlt}
             fill
             className="object-cover object-center"
-            sizes="340px"
+            sizes="(max-width: 640px) 250px, (max-width: 1024px) 300px, 340px"
             priority
           />
         </div>

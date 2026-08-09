@@ -16,7 +16,7 @@ type FooterProps = {
 export function Footer({ footer }: { footer: FooterProps }) {
   return (
     <footer className="bg-secondary py-16 text-white">
-      <Container className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.3fr_1fr_1fr_1fr]">
+      <Container className="grid gap-10 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-[2.5fr_1fr_1fr_2fr]">
         <div className="space-y-6">
           <Image
             src="/logo/footer-logo.svg"
@@ -25,7 +25,7 @@ export function Footer({ footer }: { footer: FooterProps }) {
             height={30}
             style={{ width: "auto", height: "auto" }}
           />
-          <p className="max-w-xs text-sm leading-7 text-white/80">{footer.copyright}</p>
+          <p className="max-w-[200px] text-sm leading-7 text-white/80">{footer.copyright}</p>
           <div className="flex gap-4">
             {footer.socialLinks.map((item) => (
               <a
@@ -62,7 +62,7 @@ export function Footer({ footer }: { footer: FooterProps }) {
         ))}
         <div>
           <h3 className="mb-6 text-xl font-semibold">{footer.newsletter.label}</h3>
-          <form className="flex items-center gap-3 rounded-lg bg-white/12 px-4 py-3">
+          <form className="flex items-center gap-3 rounded-lg bg-white/12 px-4 py-3 w-full max-w-[255px]">
             <input
               type="email"
               placeholder={footer.newsletter.placeholder}

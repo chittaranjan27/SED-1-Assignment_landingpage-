@@ -22,7 +22,7 @@ export function Header({ navigation, cta }: HeaderProps) {
 
   return (
     <header className="bg-neutral-silver py-6 relative z-50">
-      <Container className="flex items-center justify-between gap-6 !px-4 sm:!px-6 lg:!px-[92px]">
+      <Container className="flex items-center justify-between gap-6 !px-4 sm:!px-6 md:!px-10 lg:!px-[92px]">
         <Link href="/" aria-label="Nexcent home">
           <LogoMark />
         </Link>

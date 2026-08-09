@@ -14,6 +14,7 @@ export function ClientLogoCard({ name, logo }: ClientLogoCardProps) {
         width={100}
         height={32}
         className="h-8 w-auto object-contain"
+        style={{ width: "auto", height: "auto" }}
       />
     </div>
   );

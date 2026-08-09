@@ -18,7 +18,7 @@ export function BlogCard({ title, image, imageAlt, href }: BlogCardProps) {
           alt={imageAlt}
           width={368}
           height={286}
-          className="h-[286px] w-full object-cover transition-transform duration-500"
+          className="h-[200px] sm:h-[250px] lg:h-[286px] w-full object-cover transition-transform duration-500"
         />
       </div>
       <div className="absolute inset-x-6 bottom-0 rounded-[10px] bg-neutral-silver p-6 text-center shadow-[var(--shadow-8)]">

@@ -10,7 +10,7 @@ export function CtaSection({ cta }: { cta: CtaProps }) {
   return (
     <section className="bg-neutral-silver py-16 sm:py-8">
       <Container className="text-center">
-        <h2 className="mx-auto max-w-4xl font-display text-4xl font-bold leading-tight text-neutral-black sm:text-5xl lg:text-[4rem]">
+        <h2 className="mx-auto max-w-4xl font-display text-2xl font-bold leading-tight text-neutral-black sm:text-4xl lg:text-[4rem]">
           {cta.title}
         </h2>
         <div className="mt-8 flex justify-center">

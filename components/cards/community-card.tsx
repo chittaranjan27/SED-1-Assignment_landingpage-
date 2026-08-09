@@ -8,7 +8,7 @@ type CommunityCardProps = {
 
 export function CommunityCard({ title, description, logo }: CommunityCardProps) {
   return (
-    <article className="mx-auto flex max-w-[270px] flex-col items-center rounded-sm bg-white p-4 text-center shadow-[1px_2px_2px_rgba(0,0,0,0.02),-1px_2px_2px_rgba(0,0,0,0.02)]">
+    <article className="mx-auto flex w-full max-w-xs flex-col items-center rounded-sm bg-white p-4 text-center shadow-[1px_2px_2px_rgba(0,0,0,0.02),-1px_2px_2px_rgba(0,0,0,0.02)]">
       <div className="mb-7 flex h-8 w-16 items-center justify-center rounded-xl item-center">
         <Image
           src={logo}

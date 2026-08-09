@@ -36,7 +36,7 @@ export function FeatureSection({
             className="h-auto w-full max-w-[300px] lg:max-w-[350px] object-contain"
           />
         </div>
-        <div className={cn("lg:text-left", reversed && "lg:order-first")}>
+        <div className={cn("text-center lg:text-left", reversed && "lg:order-first")}>
           <h2 className="font-display text-2xl font-bold leading-10 text-neutral-d-grey sm:text-[2.20rem]">
             {feature.title}
           </h2>
