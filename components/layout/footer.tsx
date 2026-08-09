@@ -16,8 +16,8 @@ type FooterProps = {
 export function Footer({ footer }: { footer: FooterProps }) {
   return (
     <footer className="bg-secondary py-16 text-white">
-      <Container className="grid gap-10 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-[2.5fr_1fr_1fr_2fr]">
-        <div className="space-y-6">
+      <Container className="grid gap-10 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-[3.1fr_1fr_1fr_2fr]">
+        <div className="space-y-9">
           <Image
             src="/logo/footer-logo.svg"
             alt="Nexcent"
