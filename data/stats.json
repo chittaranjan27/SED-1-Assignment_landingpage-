@@ -1,8 +1,8 @@
 {
   "items": [
-    { "value": "2,245,341", "label": "Members", "logo": "/Logo/members.svg", "color": "#4CAF4F" },
-    { "value": "46,328", "label": "Clubs", "logo": "/Logo/clubs.svg", "color": "#4CAF4F" },
-    { "value": "828,867", "label": "Event Bookings", "logo": "/Logo/event.svg", "color": "#4CAF4F" },
-    { "value": "1,926,436", "label": "Payments", "logo": "/Logo/payment.svg", "color": "#4CAF4F" }
+    { "value": "2,245,341", "label": "Members", "logo": "/logo/members.svg", "color": "#4CAF4F" },
+    { "value": "46,328", "label": "Clubs", "logo": "/logo/clubs.svg", "color": "#4CAF4F" },
+    { "value": "828,867", "label": "Event Bookings", "logo": "/logo/event.svg", "color": "#4CAF4F" },
+    { "value": "1,926,436", "label": "Payments", "logo": "/logo/payment.svg", "color": "#4CAF4F" }
   ]
 }
