@@ -15,8 +15,8 @@ type StatsSectionProps = {
 export function StatsSection({ stats, summary }: StatsSectionProps) {
   return (
     <section className="bg-neutral-silver py-16">
-      <Container className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-        <div>
+      <Container className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+        <div className="text-center lg:text-left">
           <h2 className="font-display text-3xl font-bold leading-tight text-neutral-d-grey sm:text-[2.25rem]">
             {summary.title}
             <br />
@@ -24,7 +24,7 @@ export function StatsSection({ stats, summary }: StatsSectionProps) {
           </h2>
           <p className="mt-4 text-base leading-7 text-neutral-grey">{summary.description}</p>
         </div>
-        <div className="grid gap-8 sm:grid-cols-2">
+        <div className="grid grid-cols-2 gap-6 sm:gap-8">
           {stats.items.map((item) => (
             <StatCard key={item.label} {...item} />
           ))}

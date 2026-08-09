@@ -18,7 +18,7 @@ import testimonialsData from "@/data/testimonials.json";
 
 export default function Home() {
   return (
-    <div className="bg-background text-foreground">
+    <div className="bg-background text-neutral-d-grey">
       <Header navigation={navigationData} cta={landingData.headerCta} />
       <main>
         <HeroSection hero={landingData.hero} />

@@ -16,7 +16,7 @@ type FooterProps = {
 export function Footer({ footer }: { footer: FooterProps }) {
   return (
     <footer className="bg-secondary py-16 text-white">
-      <Container className="grid gap-12 lg:grid-cols-[1.3fr_1fr_1fr_1fr]">
+      <Container className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.3fr_1fr_1fr_1fr]">
         <div className="space-y-6">
           <LogoMark className="[&_span:last-child]:text-white" />
           <p className="max-w-xs text-sm leading-7 text-white/80">{footer.copyright}</p>

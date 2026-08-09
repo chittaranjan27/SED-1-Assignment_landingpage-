@@ -4,29 +4,75 @@
     {
       "title": "Company",
       "links": [
-        { "label": "About us", "href": "#about" },
-        { "label": "Blog", "href": "#blog" },
-        { "label": "Contact us", "href": "#contact" },
-        { "label": "Pricing", "href": "#pricing" },
-        { "label": "Testimonials", "href": "#testimonials" }
+        {
+          "label": "About us",
+          "href": "#about"
+        },
+        {
+          "label": "Blog",
+          "href": "#blog"
+        },
+        {
+          "label": "Contact us",
+          "href": "#contact"
+        },
+        {
+          "label": "Pricing",
+          "href": "#pricing"
+        },
+        {
+          "label": "Testimonials",
+          "href": "#testimonials"
+        }
       ]
     },
     {
       "title": "Support",
       "links": [
-        { "label": "Help center", "href": "#support" },
-        { "label": "Terms of service", "href": "#terms" },
-        { "label": "Legal", "href": "#legal" },
-        { "label": "Privacy policy", "href": "#privacy" },
-        { "label": "Status", "href": "#status" }
+        {
+          "label": "Help center",
+          "href": "#support"
+        },
+        {
+          "label": "Terms of service",
+          "href": "#terms"
+        },
+        {
+          "label": "Legal",
+          "href": "#legal"
+        },
+        {
+          "label": "Privacy policy",
+          "href": "#privacy"
+        },
+        {
+          "label": "Status",
+          "href": "#status"
+        }
       ]
     }
   ],
   "socialLinks": [
-    { "label": "Instagram", "href": "#instagram", "logo": "/logo/social/instagram.svg" },
-    { "label": "X", "href": "#x", "logo": "/logo/social/twitter.svg" },
-    { "label": "YouTube", "href": "#youtube", "logo": "/logo/social/youtube.svg" },
-    { "label": "Browser", "href": "#web", "logo": "/logo/social/browser.svg" }
+    {
+      "label": "Instagram",
+      "href": "#instagram",
+      "logo": "/logo/social/instagram.svg"
+    },
+    {
+      "label": "Browser",
+      "href": "#web",
+      "logo": "/logo/social/browser.svg"
+    },
+    {
+      "label": "X",
+      "href": "#x",
+      "logo": "/logo/social/twitter.svg"
+    },
+    {
+      "label": "YouTube",
+      "href": "#youtube",
+      "logo": "/logo/social/youtube.svg"
+    }
   ],
   "newsletter": {
     "label": "Stay up to date",
